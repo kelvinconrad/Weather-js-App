@@ -33,18 +33,24 @@
     outline: none;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 16px 0px 16px 0px;
-    border-bottom: 3px solid #DF8E00;
+    border-bottom: 3px solid #3a929d;
     
     color: #313131;
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
   }
+
   
   header input:focus {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.712);
   }
-  
+ 
+  header input::placeholder{
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+  }
+
   main {
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -71,7 +77,7 @@
     font-size: 102px;
     font-weight: 900;
     margin: 30px 0px;
-    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.452);
   }
   
   .current .temp span {
